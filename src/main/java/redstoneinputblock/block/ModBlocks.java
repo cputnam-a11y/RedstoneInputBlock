@@ -21,7 +21,6 @@ public class ModBlocks {
             RedstoneInputBlock::new,
             () -> AbstractBlock.Settings
                     .copy(Blocks.STONE)
-                    .breakInstantly()
                     .requiresTool()
                     .solid()
     );

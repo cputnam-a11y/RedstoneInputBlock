@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "signal=0": {
+      "model": "redstoneinputblock:block/redstone_input_block_zero"
+    },
+    "signal=1": {
+      "model": "redstoneinputblock:block/redstone_input_block_one"
+    },
+    "signal=10": {
+      "model": "redstoneinputblock:block/redstone_input_block_ten"
+    },
+    "signal=11": {
+      "model": "redstoneinputblock:block/redstone_input_block_eleven"
+    },
+    "signal=12": {
+      "model": "redstoneinputblock:block/redstone_input_block_twelve"
+    },
+    "signal=13": {
+      "model": "redstoneinputblock:block/redstone_input_block_thirteen"
+    },
+    "signal=14": {
+      "model": "redstoneinputblock:block/redstone_input_block_fourteen"
+    },
+    "signal=15": {
+      "model": "redstoneinputblock:block/redstone_input_block_fifteen"
+    },
+    "signal=2": {
+      "model": "redstoneinputblock:block/redstone_input_block_two"
+    },
+    "signal=3": {
+      "model": "redstoneinputblock:block/redstone_input_block_three"
+    },
+    "signal=4": {
+      "model": "redstoneinputblock:block/redstone_input_block_four"
+    },
+    "signal=5": {
+      "model": "redstoneinputblock:block/redstone_input_block_five"
+    },
+    "signal=6": {
+      "model": "redstoneinputblock:block/redstone_input_block_six"
+    },
+    "signal=7": {
+      "model": "redstoneinputblock:block/redstone_input_block_seven"
+    },
+    "signal=8": {
+      "model": "redstoneinputblock:block/redstone_input_block_eight"
+    },
+    "signal=9": {
+      "model": "redstoneinputblock:block/redstone_input_block_nine"
+    }
+  }
+}
