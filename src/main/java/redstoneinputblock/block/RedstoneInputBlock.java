@@ -5,10 +5,9 @@ import net.minecraft.block.BlockState;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Direction;
-import net.minecraft.util.math.random.Random;
-import net.minecraft.world.WorldView;
-import net.minecraft.world.tick.ScheduledTickView;
+import net.minecraft.world.World;
+import net.minecraft.world.block.WireOrientation;
+import org.jetbrains.annotations.Nullable;
 
 public class RedstoneInputBlock extends Block {
     public static final IntProperty SIGNAL = IntProperty.of("signal", 0, 15);
@@ -19,12 +18,13 @@ public class RedstoneInputBlock extends Block {
     }
 
     @Override
-    protected BlockState getStateForNeighborUpdate(BlockState state, WorldView world, ScheduledTickView tickView, BlockPos pos, Direction direction, BlockPos neighborPos, BlockState neighborState, Random random) {
+    protected void neighborUpdate(BlockState state, World world, BlockPos pos, Block sourceBlock, @Nullable WireOrientation wireOrientation, boolean notify) {
         int i = 0;
         if (world.isReceivingRedstonePower(pos)) {
             i = Math.max(world.getReceivedStrongRedstonePower(pos), world.getReceivedRedstonePower(pos));
         }
-        return state.with(SIGNAL, i);
+        if (i != state.get(SIGNAL))
+            world.setBlockState(pos, state.with(SIGNAL, i), Block.NOTIFY_ALL);
     }
 
     @Override
