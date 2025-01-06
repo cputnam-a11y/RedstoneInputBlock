@@ -3,15 +3,14 @@
 	"id": "redstoneinputblock",
 	"version": "${version}",
 	"name": "RedstoneInputBlock",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "No Description Provided",
 	"authors": [
-		"Me!"
+		"cputnam-a11y"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/cputnam-a11y/RedstoneInputBlock"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/redstoneinputblock/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -25,20 +24,10 @@
           "redstoneinputblock.datagen.RedstoneInputBlockDataGenerator"
 		]
 	},
-	"mixins": [
-		"redstoneinputblock.mixins.json",
-		{
-			"config": "redstoneinputblock.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.16.9",
 		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
