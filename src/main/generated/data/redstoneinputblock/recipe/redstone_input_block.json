@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "B": "minecraft:redstone_torch",
+    "R": "minecraft:redstone",
+    "S": "minecraft:stone"
+  },
+  "pattern": [
+    "SSS",
+    "SRS",
+    "SBS"
+  ],
+  "result": {
+    "count": 1,
+    "id": "redstoneinputblock:redstone_input_block"
+  },
+  "show_notification": false
+}

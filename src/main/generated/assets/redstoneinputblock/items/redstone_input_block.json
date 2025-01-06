@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "redstoneinputblock:item/redstone_input_block"
+  }
+}

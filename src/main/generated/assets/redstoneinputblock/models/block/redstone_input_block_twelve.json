@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "redstoneinputblock:block/redstone_input_block_twelve"
+  }
+}
