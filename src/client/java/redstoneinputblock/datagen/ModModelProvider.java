@@ -80,15 +80,14 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         //region Item Models
-        itemModelGenerator.register(
+        itemModelGenerator.output.accept(
                 ModBlocks.REDSTONE_INPUT_BLOCK.asItem(),
-                new Model(
-                        Optional.of(
-                                Registries.BLOCK.getId(ModBlocks.REDSTONE_INPUT_BLOCK)
-                                        .withPrefixedPath("block/")
-                                        .withSuffixedPath("_zero")
-                        ),
-                        Optional.empty()
+                ItemModels.tinted(
+                        Registries.BLOCK.getId(ModBlocks.REDSTONE_INPUT_BLOCK)
+                                .withPrefixedPath("block/")
+                                .withSuffixedPath("_zero"),
+                        ItemModels.constantTintSource(0xFFFFFFFF),
+                        ItemModels.constantTintSource(0xFF4B0000)
                 )
         );
         //endregion

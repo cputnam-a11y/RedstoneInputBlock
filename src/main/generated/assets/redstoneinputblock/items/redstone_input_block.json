@@ -1,6 +1,16 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "redstoneinputblock:item/redstone_input_block"
+    "model": "redstoneinputblock:block/redstone_input_block_zero",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": -1
+      },
+      {
+        "type": "minecraft:constant",
+        "value": -11862016
+      }
+    ]
   }
 }
