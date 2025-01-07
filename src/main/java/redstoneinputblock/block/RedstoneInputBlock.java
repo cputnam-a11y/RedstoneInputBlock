@@ -2,6 +2,7 @@ package redstoneinputblock.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
@@ -9,7 +10,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.block.WireOrientation;
 import org.jetbrains.annotations.Nullable;
 
-public class RedstoneInputBlock extends Block {
+public class RedstoneInputBlock extends PillarBlock {
     public static final IntProperty SIGNAL = IntProperty.of("signal", 0, 15);
 
     public RedstoneInputBlock(Settings settings) {
