@@ -3,6 +3,7 @@ package redstoneinputblock.block;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PillarBlock;
+import net.minecraft.item.ItemPlacementContext;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
@@ -32,5 +33,22 @@ public class RedstoneInputBlock extends PillarBlock {
     protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
         super.appendProperties(builder);
         builder.add(SIGNAL);
+    }
+
+    @SuppressWarnings("DataFlowIssue")
+    @Override
+    public BlockState getPlacementState(ItemPlacementContext ctx) {
+        return super.getPlacementState(ctx)
+                .with(
+                        SIGNAL,
+                        Math.max(
+                                ctx.getWorld().getReceivedStrongRedstonePower(
+                                        ctx.getBlockPos()
+                                ),
+                                ctx.getWorld().getReceivedRedstonePower(
+                                        ctx.getBlockPos()
+                                )
+                        )
+                );
     }
 }
