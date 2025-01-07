@@ -1,52 +1,244 @@
 {
   "variants": {
-    "signal=0": {
-      "model": "redstoneinputblock:block/redstone_input_block_zero"
+    "axis=x,signal=0": {
+      "model": "redstoneinputblock:block/redstone_input_block_zero",
+      "x": 90,
+      "y": 90
     },
-    "signal=1": {
-      "model": "redstoneinputblock:block/redstone_input_block_one"
+    "axis=x,signal=1": {
+      "model": "redstoneinputblock:block/redstone_input_block_one",
+      "x": 90,
+      "y": 90
     },
-    "signal=10": {
-      "model": "redstoneinputblock:block/redstone_input_block_ten"
+    "axis=x,signal=10": {
+      "model": "redstoneinputblock:block/redstone_input_block_ten",
+      "x": 90,
+      "y": 90
     },
-    "signal=11": {
-      "model": "redstoneinputblock:block/redstone_input_block_eleven"
+    "axis=x,signal=11": {
+      "model": "redstoneinputblock:block/redstone_input_block_eleven",
+      "x": 90,
+      "y": 90
     },
-    "signal=12": {
-      "model": "redstoneinputblock:block/redstone_input_block_twelve"
+    "axis=x,signal=12": {
+      "model": "redstoneinputblock:block/redstone_input_block_twelve",
+      "x": 90,
+      "y": 90
     },
-    "signal=13": {
-      "model": "redstoneinputblock:block/redstone_input_block_thirteen"
+    "axis=x,signal=13": {
+      "model": "redstoneinputblock:block/redstone_input_block_thirteen",
+      "x": 90,
+      "y": 90
     },
-    "signal=14": {
-      "model": "redstoneinputblock:block/redstone_input_block_fourteen"
+    "axis=x,signal=14": {
+      "model": "redstoneinputblock:block/redstone_input_block_fourteen",
+      "x": 90,
+      "y": 90
     },
-    "signal=15": {
-      "model": "redstoneinputblock:block/redstone_input_block_fifteen"
+    "axis=x,signal=15": {
+      "model": "redstoneinputblock:block/redstone_input_block_fifteen",
+      "x": 90,
+      "y": 90
     },
-    "signal=2": {
-      "model": "redstoneinputblock:block/redstone_input_block_two"
+    "axis=x,signal=2": {
+      "model": "redstoneinputblock:block/redstone_input_block_two",
+      "x": 90,
+      "y": 90
     },
-    "signal=3": {
-      "model": "redstoneinputblock:block/redstone_input_block_three"
+    "axis=x,signal=3": {
+      "model": "redstoneinputblock:block/redstone_input_block_three",
+      "x": 90,
+      "y": 90
     },
-    "signal=4": {
-      "model": "redstoneinputblock:block/redstone_input_block_four"
+    "axis=x,signal=4": {
+      "model": "redstoneinputblock:block/redstone_input_block_four",
+      "x": 90,
+      "y": 90
     },
-    "signal=5": {
-      "model": "redstoneinputblock:block/redstone_input_block_five"
+    "axis=x,signal=5": {
+      "model": "redstoneinputblock:block/redstone_input_block_five",
+      "x": 90,
+      "y": 90
     },
-    "signal=6": {
-      "model": "redstoneinputblock:block/redstone_input_block_six"
+    "axis=x,signal=6": {
+      "model": "redstoneinputblock:block/redstone_input_block_six",
+      "x": 90,
+      "y": 90
     },
-    "signal=7": {
-      "model": "redstoneinputblock:block/redstone_input_block_seven"
+    "axis=x,signal=7": {
+      "model": "redstoneinputblock:block/redstone_input_block_seven",
+      "x": 90,
+      "y": 90
     },
-    "signal=8": {
-      "model": "redstoneinputblock:block/redstone_input_block_eight"
+    "axis=x,signal=8": {
+      "model": "redstoneinputblock:block/redstone_input_block_eight",
+      "x": 90,
+      "y": 90
     },
-    "signal=9": {
-      "model": "redstoneinputblock:block/redstone_input_block_nine"
+    "axis=x,signal=9": {
+      "model": "redstoneinputblock:block/redstone_input_block_nine",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y,signal=0": {
+      "model": "redstoneinputblock:block/redstone_input_block_zero",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=1": {
+      "model": "redstoneinputblock:block/redstone_input_block_one",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=10": {
+      "model": "redstoneinputblock:block/redstone_input_block_ten",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=11": {
+      "model": "redstoneinputblock:block/redstone_input_block_eleven",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=12": {
+      "model": "redstoneinputblock:block/redstone_input_block_twelve",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=13": {
+      "model": "redstoneinputblock:block/redstone_input_block_thirteen",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=14": {
+      "model": "redstoneinputblock:block/redstone_input_block_fourteen",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=15": {
+      "model": "redstoneinputblock:block/redstone_input_block_fifteen",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=2": {
+      "model": "redstoneinputblock:block/redstone_input_block_two",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=3": {
+      "model": "redstoneinputblock:block/redstone_input_block_three",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=4": {
+      "model": "redstoneinputblock:block/redstone_input_block_four",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=5": {
+      "model": "redstoneinputblock:block/redstone_input_block_five",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=6": {
+      "model": "redstoneinputblock:block/redstone_input_block_six",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=7": {
+      "model": "redstoneinputblock:block/redstone_input_block_seven",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=8": {
+      "model": "redstoneinputblock:block/redstone_input_block_eight",
+      "x": 0,
+      "y": 0
+    },
+    "axis=y,signal=9": {
+      "model": "redstoneinputblock:block/redstone_input_block_nine",
+      "x": 0,
+      "y": 0
+    },
+    "axis=z,signal=0": {
+      "model": "redstoneinputblock:block/redstone_input_block_zero",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=1": {
+      "model": "redstoneinputblock:block/redstone_input_block_one",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=10": {
+      "model": "redstoneinputblock:block/redstone_input_block_ten",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=11": {
+      "model": "redstoneinputblock:block/redstone_input_block_eleven",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=12": {
+      "model": "redstoneinputblock:block/redstone_input_block_twelve",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=13": {
+      "model": "redstoneinputblock:block/redstone_input_block_thirteen",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=14": {
+      "model": "redstoneinputblock:block/redstone_input_block_fourteen",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=15": {
+      "model": "redstoneinputblock:block/redstone_input_block_fifteen",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=2": {
+      "model": "redstoneinputblock:block/redstone_input_block_two",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=3": {
+      "model": "redstoneinputblock:block/redstone_input_block_three",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=4": {
+      "model": "redstoneinputblock:block/redstone_input_block_four",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=5": {
+      "model": "redstoneinputblock:block/redstone_input_block_five",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=6": {
+      "model": "redstoneinputblock:block/redstone_input_block_six",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=7": {
+      "model": "redstoneinputblock:block/redstone_input_block_seven",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=8": {
+      "model": "redstoneinputblock:block/redstone_input_block_eight",
+      "x": 90,
+      "y": 0
+    },
+    "axis=z,signal=9": {
+      "model": "redstoneinputblock:block/redstone_input_block_nine",
+      "x": 90,
+      "y": 0
     }
   }
 }

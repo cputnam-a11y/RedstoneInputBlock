@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "redstoneinputblock:block/base_overlayable_axis_block",
   "textures": {
-    "all": "redstoneinputblock:block/redstone_input_block_three"
+    "base": "redstoneinputblock:block/redstone_input_block_base",
+    "base_top": "redstoneinputblock:block/redstone_input_block_base_top",
+    "overlay": "redstoneinputblock:block/redstone_input_block_three_overlay",
+    "overlay_top": "redstoneinputblock:block/redstone_input_block_three_overlay_top"
   }
 }
